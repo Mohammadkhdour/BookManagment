@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.khdour.AppTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.035 s <<< FAILURE! - in com.khdour.AppTest
+searchBookwithIBN1211(com.khdour.AppTest)  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.AssertionError: expected:<Book{ISBN='1211', Title='hello', Author='khdour', price=20.0}> but was:<null>
+	at com.khdour.AppTest.searchBookwithIBN1211(AppTest.java:27)
+
