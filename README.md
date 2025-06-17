@@ -48,7 +48,7 @@ bookstore-project/
 To build and run the project:
 
 ```bash
-git clone https://github.com/yourusername/BookManagment.git
+git clone https://github.com/Mohammadkhdour/BookManagment.git
 cd BookManagment
 mvn compile
 mvn exec:java
