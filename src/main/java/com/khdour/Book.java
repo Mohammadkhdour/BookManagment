@@ -46,6 +46,17 @@ public class Book{
     public void setPrice(double price) {
         this.price = price;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (!(obj instanceof Book)) return false;
+        Book other = (Book) obj;
+        return ISBN.equals(other.ISBN) &&
+               Title.equals(other.Title) &&
+               Author.equals(other.Author) &&
+               price == other.price;
+    }
     
     @Override
     public String toString() {
