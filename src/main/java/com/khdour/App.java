@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) {
         BookStore bookStore = new BookStore();
-         String filePath = "BookManagment/books.csv";
+         String filePath = "books.csv";
          bookStore.loadAllBooksFromCSV(filePath);
         Scanner scanner = new Scanner(System.in);
         while (true) {

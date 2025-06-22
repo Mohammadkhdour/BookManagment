@@ -21,10 +21,7 @@ public class BookStore {
     public void addBook(Book book) {
         if(searchByISBN(book.getISBN())!=null)return;
         this.books.add(book);
-        System.out.println("Book added: Title: " + book.getTitle() +
-                ", ISBN: " + book.getISBN() +
-                ", Author: " + book.getAuthor() +
-                ", Price: " + book.getPrice());
+        System.out.println("Book added: " + book.toString());
 
     }
 
